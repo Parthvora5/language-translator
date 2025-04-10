@@ -59,6 +59,14 @@ The graphical user interface (GUI) of the project is implemented using the `tkin
 
 I would like to thank the developers and contributors of Python, as well as the libraries and frameworks used in this project, for providing the tools and resources and also those who provided the knowledge and support to make this Language Translator project possible. The icons used in this project were sourced from Flaticon, a platform for high-quality icons. I appreciate the creators of the icons for their work
 
+# 🌍 Language Translator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![Made with Tkinter](https://img.shields.io/badge/Made%20with-Tkinter-brightgreen)](https://docs.python.org/3/library/tkinter.html)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/Parthvora5/language-translator)
+
+
 ## Project Disclaimer: For Demonstration Purposes Only
 
 **Please Note**: The project provided here is for demonstration purposes only and may contain bugs or glitches. It is important to understand that this implementation may require further development and refinement before it can be considered suitable for real-world applications. The intention behind sharing this project is to provide a starting point and showcase the potential of the concepts and technologies used. It is encouraged for users to further enhance and improve the project based on their specific needs and requirements.
