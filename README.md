@@ -1,74 +1,135 @@
-<h1 align="center" id="title">Language Translator</h1>
+# 🌍 Language Translator
 
-![tittle_img](https://github.com/ashin-coder/language-translator/assets/73836674/04a6874c-adf6-4ba1-9030-83253d386e8f)
+![Title Image](https://github.com/ashin-coder/language-translator/assets/73836674/04a6874c-adf6-4ba1-9030-83253d386e8f)
 
-The Language Translator project is a versatile tool designed to empower seamless communication across more than 100 languages. Utilizing the power of Python, our project allows you to effortlessly translate text in real-time, breaking down language barriers and fostering effective global interactions. With its intelligent auto-detect function, the project can instantly recognize the language of the input text, eliminating the need for manual identification. Once the source language is determined, you have the freedom to select your desired target language from our extensive database. However, I have enabled features which extend beyond just text translation. my project offers additional features such as text-to-speech functionality, enabling you to hear the translated text. Furthermore, I have added support for speech-to-text conversion from English to the chosen language, providing a convenient and efficient method for translation. The translated text can be easily copied for use in any application or platform, allowing you to seamlessly integrate it into your desired context. Also enabled the option for users to easily remove any previous translations or input from the text box. This way, you can start fresh without any clutter, making it easier for you to work on your next translation or enter new text.
+The **Language Translator** is a powerful Python-based application designed to bridge communication gaps by enabling seamless translation across 100+ languages. With intelligent auto-detect, text-to-speech, and speech-to-text capabilities, this tool makes global interaction intuitive and effortless.
 
-## Installation
+Developed using **Tkinter** for the GUI and powered by APIs like **Google Translate**, the app provides a clean and user-friendly experience suitable for both casual and professional users.
 
-1. Clone the repository: git clone https://github.com/ashin-coder/language-translator.git
-2. Install Python (version 3.10 or Other Versions may work depending on compatibility) from the official website: Python
-3. Install a Python IDE preferably PyCharm to prevent any kind of incompatibilities since this project was developed in PyCharm
-4. Install the required dependencies using pip: pip install "dependency name" ( check the imports in the code)
-5. Run the Application from the main.py file in the IDE
+---
 
-**Please Note**: As Mentioned before this installation is based on "PyCharm" IDE as it was developed in the same, Project may or may not work as expected in Other IDEs, also an Internet Connection is required for the libraries used in the application to function
+## 🛠 Created By
 
-## Features
+This project was co-developed by:
 
-1. Translate Text : Translate Data spanning over 100 languages.
-2. Read Aloud : Text-to-Speech functionality allows users to hear the translated text in the desired language.
-3. Voice Input : Speech-to-Text capability for conveniently inputting text through voice for translation.
-4. Copy : Allow to quickly and easily save the translated text to the clipboard.
-5. Clear : Allow to easily clear the text box, removing any previous translations or input.
-5. A user-friendly Graphical User Interface (GUI) for seamless and intuitive usage.
+- 👨‍💻 [Parth Vora](https://github.com/Parthvora5)
+- 👨‍💻 [Dhruvin Kheni](https://github.com/Khenidhruvin2001)
 
-## Implementation
+👥 Both contributors have equally shared the development work 50/50.
 
-The Language Translator project is a versatile tool developed using Python, aimed at facilitating seamless communication across more than 100 languages. It leverages the power of various libraries and APIs to provide a user-friendly and efficient translation experience. The core functionality of the project revolves around translating text from one language to another. By utilizing the Google Translate API through the `googletrans` library, the project enables users to effortlessly translate text in real time. The intelligent auto-detect function automatically identifies the language of the input text, eliminating the need for manual identification. This feature greatly simplifies the translation process, allowing users to quickly and accurately convert text from any language into their desired target language.
+---
 
-In addition to translation, the project incorporates several extra features to enhance the overall user experience. One of these features is the Read Aloud which is text-to-speech functionality, powered by the `gTTS` library. This functionality allows users to listen to the translated text, providing an additional layer of comprehension and accessibility. By converting the translated text into an audio file, the project enables users to hear the pronunciation and intonation of the translated content. The audio file is saved as an external file named “text_to_speech.mp3” in the project folder which is played by the default media player in the computer. This file gets replaced with a new one each time the Read Aloud functionality is used to hear audio of newer translations
+## 🚀 Features
 
-Another notable feature of the Language Translator project is its support for speech-to-text conversion from English to the chosen target language, this feature is named Voice Input in the Project. By utilizing the `speech_recognition` library, the project allows users to speak in English and have their speech automatically converted into text in the target language. This feature provides a convenient and efficient method for translation, particularly for users who may prefer speaking over typing. As mentioned before, an internet connection is required for the libraries used in the project to function
+- 🌐 **Translate Text**: Support for over 100 languages using Google Translate API
+- 🔊 **Text-to-Speech**: Hear translated text aloud with `gTTS`
+- 🎤 **Speech-to-Text**: Speak in English and translate into any language using `speech_recognition`
+- 📋 **Copy**: Quickly copy translated text to your clipboard
+- 🧹 **Clear**: Instantly clear the input and output text areas
+- 🖼️ **Simple GUI**: Built with Tkinter for an intuitive interface
 
-To ensure seamless integration of the translated text into various applications and platforms, the project includes a copy function. By utilizing the `pyperclip` library, users can easily copy the translated text to their clipboard and paste it into any desired context without any additional steps. This feature enhances the versatility and flexibility of the project, enabling users to utilize the translated content in emails, documents, chat applications, and more.
+---
 
-The Project also offers a convenient method that allows you to swiftly clear any previous translations or input from the text box. By utilizing this feature, you can effortlessly start anew without any lingering content, ensuring a streamlined and uncluttered environment for your subsequent translation or text entry. This functionality enhances usability by promoting a clean and organized workflow.
+## 🛠 Installation
 
-The graphical user interface (GUI) of the project is implemented using the `tkinter` library, offering a user-friendly and intuitive interface for interacting with the translation tool. The GUI includes options for selecting the source language, choosing the target language, inputting text to be translated, and initiating the translation process using the Translate Text button. It also provides buttons for Read Aloud (text-to-speech conversion), Voice Input (speech-to-text conversion), Copy (copying the translated text) and Clear (removing any previous translations or input) functions. 
+```bash
+# 1. Clone the repository
+git clone https://github.com/Parthvora5/language-translator.git
 
-## Project Screenshots
+# 2. Change directory
+cd language-translator
 
-* Translate Text
+# 3. Create and activate a virtual environment (optional but recommended)
+python -m venv env
+env\Scripts\activate  # For Windows
+
+# 4. Install the dependencies
+pip install -r requirements.txt
+
+# 5. Run the application
+python main.py
+```
+
+📌 **Note**: This project was developed using **Python 3.10** and tested in **PyCharm**. While it may run in other IDEs, PyCharm is recommended. An **internet connection is required** for real-time translations and speech recognition.
+
+---
+
+## 🧩 Implementation Details
+
+- **Translation Engine**: Utilizes `googletrans` to handle text translation with auto language detection.
+- **Text-to-Speech**: Powered by `gTTS`, creates an MP3 file played by the system's default media player.
+- **Speech Recognition**: Uses `speech_recognition` to capture English audio input and convert it to text.
+- **Clipboard Integration**: Via `pyperclip`, translated text can be copied instantly.
+- **Interface**: Built with `tkinter`, the GUI includes dropdowns for source/target languages, input/output text boxes, and control buttons.
+
+---
+
+## 📸 Screenshots
+
+### 🔤 Translate Text
 ![text_translate](https://github.com/ashin-coder/language-translator/assets/73836674/bd609942-9381-444a-912f-9c3183a33727)
 
-* Copy
+### 📋 Copy
 ![copy_1](https://github.com/ashin-coder/language-translator/assets/73836674/600ff069-707e-4e98-a9fb-cca3edb5ffa7)
 ![copy_2](https://github.com/ashin-coder/language-translator/assets/73836674/5722d2b1-7d88-4970-b27e-8c67cf76d616)
 
-* Read Aloud
+### 🔊 Read Aloud
 ![read_aloud](https://github.com/ashin-coder/language-translator/assets/73836674/ca3ee180-f9bc-4f18-b740-770709da3868)
 
-* Voice Input
+### 🎙 Voice Input
 ![voice_input](https://github.com/ashin-coder/language-translator/assets/73836674/a1d9ddfc-477c-4946-a37a-19dfd32d9b76)
 
-* Clear
+### 🧹 Clear
 ![clear](https://github.com/ashin-coder/language-translator/assets/73836674/28b035b4-c624-4823-a49f-e44f3ec9cbac)
 
-## Acknowledgments
+---
 
-I would like to thank the developers and contributors of Python, as well as the libraries and frameworks used in this project, for providing the tools and resources and also those who provided the knowledge and support to make this Language Translator project possible. The icons used in this project were sourced from Flaticon, a platform for high-quality icons. I appreciate the creators of the icons for their work
-
-# 🌍 Language Translator
+## 🎖 Badges
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![Made with Tkinter](https://img.shields.io/badge/Made%20with-Tkinter-brightgreen)](https://docs.python.org/3/library/tkinter.html)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/Parthvora5/language-translator)
+[![Contributors](https://img.shields.io/badge/Contributors-2-blue)](https://github.com/Parthvora5/language-translator/graphs/contributors)
 
+---
 
-## Project Disclaimer: For Demonstration Purposes Only
+## 🙏 Acknowledgments
 
-**Please Note**: The project provided here is for demonstration purposes only and may contain bugs or glitches. It is important to understand that this implementation may require further development and refinement before it can be considered suitable for real-world applications. The intention behind sharing this project is to provide a starting point and showcase the potential of the concepts and technologies used. It is encouraged for users to further enhance and improve the project based on their specific needs and requirements.
+Huge thanks to:
+- The developers of Python and its incredible libraries: `googletrans`, `gTTS`, `speech_recognition`, `pyperclip`, `tkinter`
+- [Flaticon](https://www.flaticon.com/) for icon support
+- The open-source community for inspiration and support
 
-Feel free to contribute, modify, or build upon this project to make it better and more robust. Your feedback, bug reports, and suggestions for improvement are highly appreciated. 
+---
+
+## 🧑‍💻 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Parthvora5">
+        <img src="https://github.com/Parthvora5.png" width="80px;" alt="Parth Vora"/><br />
+        <sub><b>Parth Vora</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Khenidhruvin2001">
+        <img src="https://github.com/Khenidhruvin2001.png" width="80px;" alt="Dhruvin Kheni"/><br />
+        <sub><b>Dhruvin Kheni</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## ⚠️ Project Disclaimer
+
+> This project is shared for **educational and demonstration purposes only**. While fully functional, it may contain bugs or require improvements before real-world deployment. Contributions and suggestions are welcome!
+
+Feel free to fork, star ⭐, improve, and use this project in your own apps!
+
+---
+
+**Made with ❤️ by [Parth Vora](https://github.com/Parthvora5) and [Dhruvin Kheni](https://github.com/Khenidhruvin2001)**
