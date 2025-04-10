@@ -93,7 +93,7 @@ python main.py
 [![Contributors](https://img.shields.io/badge/Contributors-2-blue)](https://github.com/Parthvora5/language-translator/graphs/contributors)
 
 ---
-
+ 
 ## 🙏 Acknowledgments
 
 Huge thanks to:
@@ -133,3 +133,5 @@ Feel free to fork, star ⭐, improve, and use this project in your own apps!
 ---
 
 **Made with ❤️ by [Parth Vora](https://github.com/Parthvora5) and [Dhruvin Kheni](https://github.com/Khenidhruvin2001)**
+
+Feel free to contribute, modify, or build upon this project to make it better and more robust. Your feedback, bug reports, and suggestions for improvement are highly appreciated.  
