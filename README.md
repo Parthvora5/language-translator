@@ -15,7 +15,10 @@ This project was co-developed by:
 - 👨‍💻 [Parth Vora](https://github.com/Parthvora5)
 - 👨‍💻 [Dhruvin Kheni](https://github.com/Khenidhruvin2001)
 
-👥 Both contributors have equally shared the development work 50/50.
+👥 Both contributors have equally shared the development work **50/50**.
+
+[![Contributors](https://img.shields.io/github/contributors/Parthvora5/language-translator)](https://github.com/Parthvora5/language-translator/graphs/contributors)
+[![Built By](https://img.shields.io/badge/Co--Developed%20By-Parth%20%26%20Dhruvin-blueviolet)](https://github.com/Parthvora5/language-translator)
 
 ---
 
@@ -90,10 +93,11 @@ python main.py
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![Made with Tkinter](https://img.shields.io/badge/Made%20with-Tkinter-brightgreen)](https://docs.python.org/3/library/tkinter.html)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/Parthvora5/language-translator)
-[![Contributors](https://img.shields.io/badge/Contributors-2-blue)](https://github.com/Parthvora5/language-translator/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/Parthvora5/language-translator)](https://github.com/Parthvora5/language-translator/graphs/contributors)
+[![Built By](https://img.shields.io/badge/Built%20With-Parth%20%26%20Dhruvin-blue)](https://github.com/Parthvora5/language-translator)
 
 ---
- 
+
 ## 🙏 Acknowledgments
 
 Huge thanks to:
@@ -133,5 +137,3 @@ Feel free to fork, star ⭐, improve, and use this project in your own apps!
 ---
 
 **Made with ❤️ by [Parth Vora](https://github.com/Parthvora5) and [Dhruvin Kheni](https://github.com/Khenidhruvin2001)**
-
-Feel free to contribute, modify, or build upon this project to make it better and more robust. Your feedback, bug reports, and suggestions for improvement are highly appreciated.  
